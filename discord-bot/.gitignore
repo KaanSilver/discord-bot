@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+venv/
+.venv/
+env/
+
+# Secrets & Data
+.env
+fsae_pdfs.json
+
+# OS & Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
